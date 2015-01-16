@@ -1,5 +1,5 @@
 {
-  "name": "ng-table-export",
+  "name": "ng-table-export-comma",
   "version": "0.1.0",
   "main": [
     "ng-table-export.js"

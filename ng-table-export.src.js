@@ -17,7 +17,7 @@ angular.module('ngTableExport', [])
                         '"';
                 },
                 generate: function() {
-                    data = '';
+                    data = 'sep=;' + "\n";
                     var rows = element.find('tr');
                     angular.forEach(rows, function(row, i) {
                         var tr = angular.element(row),
